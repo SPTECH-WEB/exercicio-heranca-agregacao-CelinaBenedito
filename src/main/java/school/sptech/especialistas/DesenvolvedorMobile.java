@@ -9,7 +9,7 @@ public class DesenvolvedorMobile extends Desenvolvedor {
     public DesenvolvedorMobile() {
     }
     public Double calcularSalario(){
-        return (getValorHora()+getQtdHoras())+(horasPrototipacao*200.0);
+        return (getValorHora()*getQtdHoras())+(horasPrototipacao*200.0);
     }
 
     public String getPlataforma() {
